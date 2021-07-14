@@ -50,14 +50,13 @@ p{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-left: 30px;
 }
 
 .col1{
    flex-basis: 40% ;
     min-width: 200px;
-    padding-left: 30px;
 }
 .col1 img{
     display: inline;
@@ -223,7 +222,7 @@ ul{
     .row{
         text-align: center;
     }
-    .col2,.col3,.col1{
+    .col2,.col3,.col1,.container{
         flex-basis: 100%;
     }
 }
@@ -263,7 +262,6 @@ ul{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-left: 30px;
     margin-top: 50px;
 }
 .pro-row p{
@@ -318,7 +316,6 @@ ul{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-left: 30px;
 }
 
 .product-details-row .col1 img{
@@ -458,7 +455,7 @@ form h3{
     flex: 75%;
 }
 
-.shipRow .col-25,.col-50,.col-75 {
+.shipRow,.col-50,.col-75 {
     padding: 0 16px;
 }
 
